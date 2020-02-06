@@ -75,7 +75,7 @@ lines(preds$ages, preds$lengths, lty=2)
 plot(z$days,z$length..cm.,xlim=c(0,1000),ylim=c(40,100), xlab = 'Age (days)', ylab = 'Length (cm)')
 lines(preds$ages,preds$lengths,lty=2)
 # plot out the asymptotic size, which is the first coefficient in our model
-# the coefficients() function extracts the coefficients used to to fit the 
+# the coefficients() function extracts the coefficients from the fitted model
 abline(h=coefficients(growth.curve)[1],lty=3,col=2)
 
 # how old will my daughter be when she reaches her asymptotic size and stops growing?
