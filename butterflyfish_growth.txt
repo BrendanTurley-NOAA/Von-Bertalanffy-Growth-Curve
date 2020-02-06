@@ -1,0 +1,18 @@
+butterflyfish (Chaetodon miliaris) growth data
+age is in days (from daily growth rings), length is in mm
+ages   lengths
+35       27
+51       32
+227      70
+108      35
+133      42
+118      44
+115      50
+138      52
+147      56
+169      66
+71       29
+228      71
+221      71
+322      86
+375      87
